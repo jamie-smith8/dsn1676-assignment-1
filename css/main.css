@@ -31,9 +31,8 @@ main {
 }
 
 .photo {
-    background: url("../images/frame.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    border-image: url("../images/frame.png") 69 69  69 69 stretch stretch;
+    border-bottom-width: 69px 69px 69px 69px;
 }
 
 img {
@@ -42,6 +41,22 @@ img {
 
 .info {
     background-color: #87714F;
+    background-image: url("../images/hat.svg");
+    background-image: url("../images/cuffs.svg");
     color: white;
     letter-spacing: 1px;
+}
+
+.reward {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.list {
+    line-height: 1.5em;
+    font-family: serif;
+}
+
+.crimes {
+    text-align: center;
 }
