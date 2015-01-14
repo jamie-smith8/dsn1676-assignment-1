@@ -16,3 +16,11 @@ html {
 *, *::before, *::after {
 box-sizing: inherit;
 }
+
+main {
+    font-family: 'Abril Fatface', serif;
+}
+
+img {
+    width: 100%;
+}
