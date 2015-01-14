@@ -21,6 +21,15 @@ main {
     font-family: 'Abril Fatface', serif;
 }
 
+.masthead {
+    background: transparent url("../img/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.star {
+    width: 35px;
+}
+
 img {
     width: 100%;
 }
