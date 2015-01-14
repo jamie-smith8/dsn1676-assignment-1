@@ -42,9 +42,12 @@ img {
 .info {
     background-color: #87714F;
     background-image: url("../images/hat.svg");
-    background-image: url("../images/cuffs.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
     color: white;
     letter-spacing: 1px;
+    padding-top: 5em;
 }
 
 .reward {
@@ -60,3 +63,38 @@ img {
 .crimes {
     text-align: center;
 }
+
+
+
+@media only screen and (min-width: 25em) {
+    
+}
+
+
+@media only screen and (min-width: 38em) {
+    
+    .info {
+    background-color: #87714F;
+    background-image: url("../images/hat.svg"), url("../images/cuffs.svg");
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    background-size: 80px 80px, 80px, 80px;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 5em;
+}
+    
+    
+}
+
+@media only screen and (min-width: 60em) {
+    
+}
+
+
+@media only screen and (min-width: 90em) {
+    
+}
+
+
+
