@@ -30,6 +30,18 @@ main {
     width: 35px;
 }
 
+.photo {
+    background: url("../images/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 img {
     width: 100%;
+}
+
+.info {
+    background-color: #87714F;
+    color: white;
+    letter-spacing: 1px;
 }
